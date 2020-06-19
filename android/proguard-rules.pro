@@ -1,0 +1,1 @@
+-keep public class * extends com.modool.flutter_easy_plugin.FlutterEasyPlugin { *; }

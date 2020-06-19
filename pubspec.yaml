@@ -1,0 +1,26 @@
+name: flutter_easy_plugin
+description: A new flutter plugin project.
+version: 0.0.1
+homepage: https://github.com/modool/flutter_easy_plugin
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.modool.flutter_easy_plugin
+        pluginClass: FlutterEasyPlugin
+      ios:
+        pluginClass: FlutterEasyPlugin
+      macos:
+        pluginClass: FlutterEasyPlugin
